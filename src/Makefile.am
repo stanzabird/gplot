@@ -1,3 +1,3 @@
 bin_PROGRAMS = exprcalc
-exprcalc_SOURCES = exprcalc.h exprcalc.cc main.cc
+gplot_SOURCES = gplot.h gplot.cc main.cc
 
