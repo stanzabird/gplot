@@ -4,8 +4,13 @@
 
 #include "gplot.h"
 #include <iostream>
+#include <cmath>
+
+float f(float x) {
+  return sin(cos(x)+cos(2*x)+cos(3*x));
+}
 
 int main() {
-  std::cout << "Hello, world!" << std::endl;  
+  sb::gplot::plot2d<float> plot2d(f);
   return 0;
 }
